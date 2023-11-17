@@ -1,0 +1,36 @@
+.message_main{
+    width: 100vw ;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    background-color: rgba(172, 167, 167, 0.45);
+    
+}
+
+.message_body{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 5vh;
+    background-color: #fff;
+    
+}
+
+.message_body > h1{
+    width: 100%;
+    text-align: center;
+    font-weight: unset;
+}
+
+.message_body > button{
+    padding: 0.5rem 1.5rem;
+}

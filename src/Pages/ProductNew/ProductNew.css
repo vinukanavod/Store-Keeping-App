@@ -1,0 +1,90 @@
+.productNew_main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.PN_body{
+    width: 60%;
+    /* height: 80%; */
+    height: auto;
+    border:2px solid black;
+    padding: 5vh 2vw;
+}
+
+#PN_body_p{
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin-top: 2vh;
+}
+
+.PN_body_form{
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+}
+
+.PNBF_div-1{
+    flex: 3;
+    /* background-color: yellow; */
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#PNBF_div_sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#PNBF_div_sec > span{
+    text-transform: capitalize;
+}
+
+.PNBF_div-2{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.PNBF_div-2 > img{
+    width: 100%;
+    height: auto;
+}
+
+.PNBF_div-2 > section{
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+}
+
+
+.PNBF_div-2 > section > button{
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#Add_item_btn{
+    background-color: blue;
+    border-color: blue;
+
+}
+
+#PNVF_cancel_btn{
+    background-color: grey;
+    border-color: grey;
+}

@@ -1,0 +1,52 @@
+.login_main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login_form{
+    width: 50%;
+    height: 60%;
+    padding: 5vh 3vw;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    font-size: 1.15rem;
+}
+
+.LF_input{
+    font-size: 1.15rem;
+    /* padding: 0.5em 1em; */
+    padding: 0.5em 0;
+    padding-left: 1em;
+    border-radius: 5px;
+    border-color: rgb(44, 8, 226);
+    width: 35%;
+}
+
+.LF_button{
+    margin-top: 2em;
+    width: 37%;
+    font-size: 1.1rem;
+    padding: 0.5em 2em;
+    color: #fff;
+    border-radius: 5px;
+    background-color: blue;
+    border:1px solid transparent;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.LF_button:hover{
+    color: blue;
+    border-color: blue;
+    background-color: #fff;
+}
